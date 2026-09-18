@@ -49,7 +49,7 @@ form.addEventListener("submit", (event) => {
 });
 
 btnNext.addEventListener("click", () => {
-  if (searchPokemon > 1) {
+  if (searchPokemon > 0) {
     searchPokemon += 1;
     renderPokemon(searchPokemon);
   }
